@@ -14,7 +14,8 @@ if (Qt6_VERSION VERSION_GREATER_EQUAL 6.3)
     qt_standard_project_setup()
 endif()
 
-qt_add_executable(Ninja_Auto_AppApp src/main.cpp)
+qt_add_executable(Ninja_Auto_AppApp src/main.cpp
+    appIcon.qrc)
 
 qt_add_resources(Ninja_Auto_AppApp "configuration"
     PREFIX "/"

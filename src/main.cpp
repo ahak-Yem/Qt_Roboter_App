@@ -7,6 +7,7 @@
 #include "app_environment.h"
 #include "import_qml_components_plugins.h"
 #include "import_qml_plugins.h"
+#include "QIcon"
 
 int main(int argc, char *argv[])
 {
@@ -14,6 +15,7 @@ int main(int argc, char *argv[])
 
     QGuiApplication app(argc, argv);
 
+    app.setWindowIcon(QIcon(":/Ninja Auto Logo.ico"));
     QQmlApplicationEngine engine;
     const QUrl url(u"qrc:Main/main.qml"_qs);
     QObject::connect(
