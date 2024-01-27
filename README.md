@@ -51,7 +51,7 @@ Email: ninja_auto_support@gmail.com
 - WebEngineQuick: [Main page](https://doc.qt.io/qt-6.4/qtwebenginequick-module.html)
 
 ## Extras
-- Our firmware for the Robot Car: [Repository](https://gitlab.rz.htw-berlin.de/s0580976/vertiefung-programmierung)
+- Our firmware for the Robot Car: [Robot Firmware](https://github.com/ahak-Yem/Roboter))
 
 ## Contributors
 - Ahmed Kutbi
